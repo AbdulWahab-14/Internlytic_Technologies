@@ -7,7 +7,7 @@ interns during Phase 1, see who created each one, and open project details.
 > fictional and clearly labelled as sample data. This repository does **not**
 > access Internlytic's production website, private database or any credentials.
 
-**Live demo:** _add your deployed link here (Vercel / Netlify / GitHub Pages)_
+**Live demo:** _[add your deployed link here (Vercel / Netlify / GitHub Pages](http://localhost:5173/))_
 
 ## Features
 
