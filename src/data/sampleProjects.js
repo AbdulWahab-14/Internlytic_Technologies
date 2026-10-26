@@ -1,0 +1,150 @@
+// SAMPLE DATA ONLY.
+// Every project, intern name and link below is fictional and exists purely to
+// demonstrate the gallery. Field names follow the handbook's suggested model:
+// id, projectTitle, internName, track, description, thumbnailUrl, liveUrl,
+// githubUrl, technologies, approvalStatus, createdAt.
+//
+// Only records with approvalStatus === "approved" are ever shown publicly.
+
+export const SAMPLE_PROJECTS = [
+  {
+    id: "p-001",
+    projectTitle: "Aurora 3D Portfolio",
+    internName: "Aisha Khan",
+    track: "Front-End",
+    description:
+      "A layered-parallax personal portfolio with mouse-tilt cards and scroll reveal animations that respects reduced-motion settings.",
+    thumbnailUrl: null,
+    liveUrl: "https://example.com/aurora-portfolio",
+    githubUrl: "https://github.com/sample-intern/aurora-portfolio",
+    technologies: ["React", "CSS 3D", "Vite"],
+    approvalStatus: "approved",
+    createdAt: "2026-09-14",
+  },
+  {
+    id: "p-002",
+    projectTitle: "GitFinder Pro",
+    internName: "Bilal Ahmed",
+    track: "Web Development",
+    description:
+      "Search any GitHub username and browse the public profile and repositories, with graceful loading, not-found and rate-limit states.",
+    thumbnailUrl: null,
+    liveUrl: "https://example.com/gitfinder",
+    githubUrl: "https://github.com/sample-intern/gitfinder",
+    technologies: ["React", "GitHub REST API", "Vite"],
+    approvalStatus: "approved",
+    createdAt: "2026-09-21",
+  },
+  {
+    id: "p-003",
+    projectTitle: "StudyBuddy Planner",
+    internName: "Sara Malik",
+    track: "UI/UX Design",
+    description:
+      "A calm, accessible study-planner interface with a design system, dark mode and fully documented components.",
+    thumbnailUrl: null,
+    liveUrl: "https://example.com/studybuddy",
+    githubUrl: null,
+    technologies: ["Figma", "Design Tokens", "Accessibility"],
+    approvalStatus: "approved",
+    createdAt: "2026-09-25",
+  },
+  {
+    id: "p-004",
+    projectTitle: "PakWeather Dashboard",
+    internName: "Usman Tariq",
+    track: "Data & Analytics",
+    description:
+      "An interactive dashboard visualising temperature and rainfall trends across Pakistani cities using open weather data.",
+    thumbnailUrl: null,
+    liveUrl: null,
+    githubUrl: "https://github.com/sample-intern/pak-weather",
+    technologies: ["JavaScript", "Chart.js", "REST API"],
+    approvalStatus: "approved",
+    createdAt: "2026-09-28",
+  },
+  {
+    id: "p-005",
+    projectTitle: "QuickBite Ordering",
+    internName: "Hira Siddiqui",
+    track: "Mobile",
+    description:
+      "A mobile-first food ordering prototype with cart, order summary and touch-friendly navigation.",
+    thumbnailUrl: null,
+    liveUrl: "https://example.com/quickbite",
+    githubUrl: "https://github.com/sample-intern/quickbite",
+    technologies: ["React", "PWA", "CSS Grid"],
+    approvalStatus: "approved",
+    createdAt: "2026-10-02",
+  },
+  {
+    id: "p-006",
+    projectTitle: "Kanban Lite",
+    internName: "Zain Abbas",
+    track: "Web Development",
+    description:
+      "A lightweight drag-and-drop kanban board that stores tasks locally and works fully with the keyboard.",
+    thumbnailUrl: null,
+    liveUrl: "https://example.com/kanban-lite",
+    githubUrl: "https://github.com/sample-intern/kanban-lite",
+    technologies: ["React", "LocalStorage", "ARIA"],
+    approvalStatus: "approved",
+    createdAt: "2026-10-05",
+  },
+  {
+    id: "p-007",
+    projectTitle: "EcoTrack Habits",
+    internName: "Maryam Noor",
+    track: "UI/UX Design",
+    description:
+      "A habit-tracking app concept focused on sustainability, with a full user-flow, wireframes and a clickable prototype.",
+    thumbnailUrl: null,
+    liveUrl: "https://example.com/ecotrack",
+    githubUrl: null,
+    technologies: ["Figma", "Prototyping", "User Research"],
+    approvalStatus: "approved",
+    createdAt: "2026-10-08",
+  },
+  {
+    id: "p-008",
+    projectTitle: "CodeQuiz Arena",
+    internName: "Hamza Raza",
+    track: "Front-End",
+    description:
+      "A timed multiple-choice quiz game for JavaScript fundamentals with score history and shareable results.",
+    thumbnailUrl: null,
+    liveUrl: "https://example.com/codequiz",
+    githubUrl: "https://github.com/sample-intern/codequiz",
+    technologies: ["JavaScript", "HTML", "CSS"],
+    approvalStatus: "approved",
+    createdAt: "2026-10-11",
+  },
+  {
+    id: "p-009",
+    projectTitle: "Sales Insight Explorer",
+    internName: "Fatima Zahid",
+    track: "Data & Analytics",
+    description:
+      "Upload a CSV of sales data and explore revenue by region and month with filters and summary cards.",
+    thumbnailUrl: null,
+    liveUrl: "https://example.com/sales-insight",
+    githubUrl: "https://github.com/sample-intern/sales-insight",
+    technologies: ["React", "CSV Parsing", "Charts"],
+    approvalStatus: "approved",
+    createdAt: "2026-10-14",
+  },
+  {
+    // Not approved: this record must NEVER appear in the public gallery.
+    id: "p-010",
+    projectTitle: "Draft Project (Pending Review)",
+    internName: "Test Intern",
+    track: "Front-End",
+    description: "This pending record proves that unapproved items are filtered out.",
+    thumbnailUrl: null,
+    liveUrl: null,
+    githubUrl: null,
+    technologies: ["React"],
+    approvalStatus: "pending",
+    createdAt: "2026-10-20",
+  },
+];
