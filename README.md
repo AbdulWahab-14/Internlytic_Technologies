@@ -7,7 +7,7 @@ interns during Phase 1, see who created each one, and open project details.
 > fictional and clearly labelled as sample data. This repository does **not**
 > access Internlytic's production website, private database or any credentials.
 
-**Live demo:** _[internlytic-technologies.vercel.app)_
+**Live demo:** [https://internlytic-technologies.vercel.app](https://internlytic-technologies.vercel.app)
 
 ## Features
 
